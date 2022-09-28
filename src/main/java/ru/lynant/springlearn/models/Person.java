@@ -1,6 +1,6 @@
 package ru.lynant.springlearn.models;
 
-import javax.validation.constraints.*;
+import jakarta.validation.constraints.*;
 
 public class Person {
     @NotEmpty(message = "Name should not be empty!")
